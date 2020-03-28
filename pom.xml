@@ -53,6 +53,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+					<mainClass>com.atul.spring5.Spring5webappApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
